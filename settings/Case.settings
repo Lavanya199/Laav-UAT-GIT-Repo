@@ -9,15 +9,38 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>uat@salesforce.com</defaultCaseOwner>
+    <defaultCaseOwner>jaanu@domain.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>uat@salesforce.com</defaultCaseUser>
+    <defaultCaseUser>jaanu@domain.com</defaultCaseUser>
     <emailToCase>
-        <enableEmailToCase>false</enableEmailToCase>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>true</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>true</preQuoteSignature>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>true</createTask>
+            <emailAddress>laav.raag@gmail.com</emailAddress>
+            <emailServicesAddress>laav.raag@1fjrfsh85qz3ndwhoc5ca7f4rwwmxnwlhdmjzf9u7bg9ws1bc9.36-h2dqea0.na30.case.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Livia</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+            <taskStatus>In Progress</taskStatus>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
+    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>

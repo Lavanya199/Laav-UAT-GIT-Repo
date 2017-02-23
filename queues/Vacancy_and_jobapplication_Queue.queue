@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>jaanu.jaan0309@gmail.com</email>
+    <name>Vacancy and jobapplication Queue</name>
+    <queueSobject>
+        <sobjectType>Job_Application__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Vacancy__c</sobjectType>
+    </queueSobject>
+</Queue>

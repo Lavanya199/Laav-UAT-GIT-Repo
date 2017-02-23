@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vacancy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vacancies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approver1 --></label>
+        <name>Approver1__c</name>
+        <relationshipLabel><!-- Vacancies (Approver1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver2 --></label>
+        <name>Approver2__c</name>
+        <relationshipLabel><!-- Vacancies (Approver2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver3 --></label>
+        <name>Approver3__c</name>
+        <relationshipLabel><!-- Vacancies (Approver3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Days Open --></label>
+        <name>Days_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Description --></label>
+        <name>Job_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Location --></label>
+        <name>Job_Location__c</name>
+        <picklistValues>
+            <masterLabel>Housten</masterLabel>
+            <translation><!-- Housten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Diego</masterLabel>
+            <translation><!-- San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Jose</masterLabel>
+            <translation><!-- San Jose --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vacancy Status --></label>
+        <name>Vacancy_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Hired</masterLabel>
+            <translation><!-- Closed-Hired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Rejected</masterLabel>
+            <translation><!-- Closed-Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vacancy Type --></label>
+        <name>Vacancy_Type__c</name>
+        <picklistValues>
+            <masterLabel>Full-time</masterLabel>
+            <translation><!-- Full-time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part-Time</masterLabel>
+            <translation><!-- Part-Time --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Vacancy Layout</layout>
+        <sections>
+            <label><!-- Approval by Hiring Manager or Immediate Manager --></label>
+            <section>Approval by Hiring Manager or Immediate Manager</section>
+        </sections>
+        <sections>
+            <label><!-- Approvals section --></label>
+            <section>Approvals section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vacancy-recruiter layout</layout>
+        <sections>
+            <label><!-- Approvals section --></label>
+            <section>Approvals section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Record Types --></label>
+            <section>Record Types</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- HiringManager Record --></label>
+        <name>HiringManager_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Interviewer Record --></label>
+        <name>Interviewer_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Recruiter Record --></label>
+        <name>Recruiter_Record</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please fill in the duration between 1 and 365 --></errorMessage>
+        <name>Parttime_Validation_rule</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -3,4 +3,11 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tab>standard-AppLauncher</tab>
+    <tab>Client__c</tab>
+    <tab>Project__c</tab>
+    <tab>Consultant__c</tab>
+    <tab>Applicant__c</tab>
+    <tab>Job_Site__c</tab>
+    <tab>VF_page_tab</tab>
+    <tab>Review__c</tab>
 </CustomApplication>

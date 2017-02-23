@@ -1,0 +1,21 @@
+<apex:page standardController="Account" recordSetVar="acts" >
+  <apex:form >
+    <apex:pageBlock title="List of accounts">
+      <apex:pageBlockTable value="{!acts}" var="a">
+        <apex:column value="{!a.Name}"/>
+        <apex:column value="{!a.Type}"/>
+        <apex:column value="{!a.Industry}"/>
+        <apex:column headerValue="Phone Number" >
+        <apex:outputField value="{!a.Phone}">
+            <apex:inlineEditSupport />
+         </apex:outputField>
+        </apex:column>
+     </apex:pageBlockTable>
+   
+    <apex:commandButton value="Next Page" action="{!Next}"/>
+    <apex:commandButton value="Previous Page" action="{!Previous}"/>
+    <apex:commandButton value="First Page" action="{!First}"/>
+    <apex:commandButton value="Last Page" action="{!Last}"/>
+  </apex:pageBlock>
+ </apex:form>
+</apex:page>

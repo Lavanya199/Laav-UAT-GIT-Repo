@@ -70,11 +70,11 @@
     </preferences>
     <preferences>
         <settingName>NotesReservedPref01</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>EnhancedEmailEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>PathAssistantsEnabled</settingName>
@@ -82,7 +82,7 @@
     </preferences>
     <preferences>
         <settingName>S1DesktopEnabled</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>ActivityAnalyticsEnabled</settingName>
