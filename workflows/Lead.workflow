@@ -164,15 +164,4 @@
             <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
         </workflowTimeTriggers>
     </rules>
-    <tasks>
-        <fullName>Follow_up_task_1hr</fullName>
-        <assignedTo>jaanu@domain.com</assignedTo>
-        <assignedToType>user</assignedToType>
-        <dueDateOffset>1</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <priority>Normal</priority>
-        <protected>false</protected>
-        <status>Not Started</status>
-        <subject>Follow up - task - 1hr</subject>
-    </tasks>
 </Workflow>
