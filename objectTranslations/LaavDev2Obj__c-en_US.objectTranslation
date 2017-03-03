@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LaavDev2Obj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LaavDev2Obj</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dev2CurrencyField --></label>
+        <name>Dev2CurrencyField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dev2Picklist field --></label>
+        <name>Dev2Picklist_field__c</name>
+        <picklistValues>
+            <masterLabel>Hello</masterLabel>
+            <translation><!-- Hello --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi</masterLabel>
+            <translation><!-- Hi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namasthe</masterLabel>
+            <translation><!-- Namasthe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satsrikaal</masterLabel>
+            <translation><!-- Satsrikaal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vannakam</masterLabel>
+            <translation><!-- Vannakam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LaavDev2Field --></label>
+        <name>LaavDev2Field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

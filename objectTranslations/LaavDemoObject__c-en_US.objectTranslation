@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LaavDemoObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LaavDemoObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- LaavDemoField --></label>
+        <name>LaavDemoField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
