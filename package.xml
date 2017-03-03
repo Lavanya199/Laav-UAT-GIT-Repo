@@ -13,14 +13,17 @@
     <types>
         <members>AR_4_1_Object__c.AR_4_1_picklist__c</members>
         <members>Account.AutorabitExtId__c</members>
+        <members>Mar_3_object__c.Mar_3_phone_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>AR_4_1_Object__c</members>
+        <members>Mar_3_object__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>AR_4_1_Object__c-AR 4%2E1 Object Layout</members>
+        <members>Mar_3_object__c-Mar 3 object Layout</members>
         <name>Layout</name>
     </types>
 </Package>
