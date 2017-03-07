@@ -18,6 +18,7 @@
         <members>CompareCommit__c.Picklist_field__c</members>
         <members>Gated_checkin__c.Gated_checkin_field__c</members>
         <members>Mar_3_object__c.Mar_3_phone_field__c</members>
+        <members>Simi1__c.Simi_1_picklist_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -25,6 +26,7 @@
         <members>CompareCommit__c</members>
         <members>Gated_checkin__c</members>
         <members>Mar_3_object__c</members>
+        <members>Simi1__c</members>
         <name>CustomObject</name>
     </types>
     <types>
