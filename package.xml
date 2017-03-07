@@ -14,12 +14,15 @@
     <types>
         <members>AR_4_1_Object__c.AR_4_1_picklist__c</members>
         <members>Account.AutorabitExtId__c</members>
+        <members>CompareCommit__c.LeadTest__c</members>
+        <members>CompareCommit__c.Picklist_field__c</members>
         <members>Gated_checkin__c.Gated_checkin_field__c</members>
         <members>Mar_3_object__c.Mar_3_phone_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>AR_4_1_Object__c</members>
+        <members>CompareCommit__c</members>
         <members>Gated_checkin__c</members>
         <members>Mar_3_object__c</members>
         <name>CustomObject</name>
