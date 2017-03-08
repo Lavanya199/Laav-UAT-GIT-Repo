@@ -9,6 +9,7 @@
     </types>
     <types>
         <members>CSP_Trusted_Site_Test</members>
+        <members>Yahoosite</members>
         <name>CspTrustedSite</name>
     </types>
     <types>
