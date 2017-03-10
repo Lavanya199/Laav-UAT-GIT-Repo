@@ -1,0 +1,14 @@
+<apex:page controller="ac5" >
+<apex:form >
+    <apex:pageBlock title="Create Account"> 
+    <apex:pageBlockSection >
+        <apex:inputField value="{!a.Name}"/> <br/>
+        <apex:inputField value="{!a.Type}"/> <br/>
+        <apex:inputField value="{!a.Industry}"/> <br/>
+        <apex:inputField value="{!a.Phone}"/> <br/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <apex:commandButton value="Create Account Now" action="{!create}"/>
+</apex:form>
+</apex:page>

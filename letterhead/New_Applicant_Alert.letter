@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#CCCCFF</backgroundColor>
+    <bodyColor>#C0C0C0</bodyColor>
+    <bottomLine>
+        <color>#660000</color>
+        <height>5</height>
+    </bottomLine>
+    <description>When a new applicant details have been entered, an email alert should automatically be sent to the Recruitment Queue members</description>
+    <footer>
+        <backgroundColor>#CCFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#CCFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#990000</color>
+        <height>5</height>
+    </middleLine>
+    <name>New Applicant Alert</name>
+    <topLine>
+        <color>#990000</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>case auto response 1</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Priority</field>
+                <operation>equals</operation>
+                <value>High</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <replyToEmail>livia.livi1319@gmail.com</replyToEmail>
+            <senderEmail>jaanu.jaan0309@gmail.com</senderEmail>
+            <senderName>livi</senderName>
+            <template>unfiled$public/Interview_scheduled</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

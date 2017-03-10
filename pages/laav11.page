@@ -1,0 +1,9 @@
+<apex:page controller="ac2" >
+    <apex:pageBlock title="List of Accounts">
+        <apex:pageBlockTable value="{!aacts}" var="a">
+        <apex:column value="{!a.Name}"/>
+        <apex:column value="{!a.Type}"/>
+        <apex:column value="{!a.Industry}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

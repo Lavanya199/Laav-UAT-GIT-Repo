@@ -1,0 +1,19 @@
+<apex:page standardController="Account" >
+{!Account.Name}
+
+<apex:form >
+<apex:pageBlock title="My Block1">
+<apex:inputField value="{!Account.Name}"/>
+<apex:commandButton value="Save it" action="{!Save}"/> <p/>
+<apex:commandButton value="Save & Stay" action="{!QuickSave}"/> <br/>
+<apex:commandLink value="Save" action="{!QuickSave}"/> <p/>
+<apex:commandButton value="Go to page:laav5" action="/apex/laav5"/> <br/>
+<apex:commandButton value="Go to page:laav4" action="/apex/laav4"/> <br/>
+<apex:commandButton value="Go to page:laav2" action="/apex/laav2"/> <br/>
+<apex:pageBlockButtons >
+<apex:commandButton value="Save-PB" action="{!Save}"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+ 
+</apex:page>

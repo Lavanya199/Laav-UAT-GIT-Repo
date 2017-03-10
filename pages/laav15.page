@@ -1,0 +1,26 @@
+<apex:page controller="ac6" extensions="ext2">
+
+<apex:form >
+    <apex:pageBlock title="Search Layout">
+    <apex:inputText value="{!keyword}"/>
+    <apex:commandButton value="Search" action="{!search}"/>
+    
+    <apex:pageBlockTable value="{!results}" var="r">
+        <apex:column value="{!r.Name}"/>
+        <apex:column value="{!r.Type}"/>
+        <apex:column value="{!r.Industry}"/>
+    </apex:pageBlockTable>
+    
+    <apex:tabPanel >   
+     <apex:tab label="Campaigns" labelWidth="200">
+      <apex:pageBlockTable value="{!camps}" var="c">
+          <apex:column value="{!c.Name}"/>
+          <apex:column value="{!c.StartDate}"/>
+          <apex:column value="{!c.EndDate}"/>
+      </apex:pageBlockTable>
+      </apex:tab>
+      </apex:tabPanel> 
+    
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

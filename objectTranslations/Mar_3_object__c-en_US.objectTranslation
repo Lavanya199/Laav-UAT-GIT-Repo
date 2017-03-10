@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mar 3 object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mar 3 objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Mar 3 phone field --></label>
+        <name>Mar_3_phone_field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

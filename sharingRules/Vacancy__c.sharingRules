@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Vacancy_rule_1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Vacancy rule 1</label>
+        <sharedTo>
+            <group>Test_group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Department__c</field>
+            <operation>equals</operation>
+            <value>Finance</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

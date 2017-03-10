@@ -1,0 +1,10 @@
+<apex:page standardController="Account" >
+Name: {!Account.Name} <br/>
+Industry: {!Account.Industry} <br/>
+Phone: {!Account.Phone} <br/>
+Rating: {!Account.Rating} <br/>
+<apex:detail relatedList="false" title="false" />
+<apex:relatedList list="contacts"/>
+<apex:relatedList list="opportunities"/>
+<apex:relatedList list="cases"/>
+</apex:page>

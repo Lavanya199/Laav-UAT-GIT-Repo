@@ -65,31 +65,26 @@
                 <value>
                     <fullName>Option 1</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Option 1</label>
                 </value>
                 <value>
                     <fullName>Option 2</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Option 2</label>
                 </value>
                 <value>
                     <fullName>Option 3</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Option 3</label>
                 </value>
                 <value>
                     <fullName>Option 4</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Option 4</label>
                 </value>
                 <value>
                     <fullName>Option 5</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Option 5</label>
                 </value>
             </valueSetDefinition>
