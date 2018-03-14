@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>40.0</version>
     <types>
+        <members>AccountCreation</members>
+        <members>AccountCreationTest</members>
         <members>apexclass1</members>
         <name>ApexClass</name>
     </types>
@@ -590,6 +592,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>UAT__c.Select__c</members>
         <members>UAT__c.UAT_Field1__c</members>
         <members>UAT__c.UAT_Field2__c</members>
         <members>User.ManagerId</members>
