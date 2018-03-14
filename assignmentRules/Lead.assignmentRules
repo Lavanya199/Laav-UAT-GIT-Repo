@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Lead state CA rule</fullName>
+        <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>Lead_Queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Lead.State</field>
-                <operation>equals</operation>
-                <value>CA</value>
-            </criteriaItems>
-            <template>unfiled$public/New_Applicant_Email_template</template>
-        </ruleEntry>
-    </assignmentRule>
-    <assignmentRule>
-        <fullName>Standard</fullName>
-        <active>false</active>
-        <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyaint@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -27,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyaint@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>

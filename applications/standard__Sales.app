@@ -7,23 +7,12 @@
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Opportunity</tab>
-    <tab>standard-ForecastItem</tab>
-    <tab>standard-AdvForecast</tab>
     <tab>standard-Forecasting3</tab>
     <tab>standard-Contract</tab>
     <tab>standard-Order</tab>
-    <tab>standard-Invoice</tab>
     <tab>standard-Case</tab>
     <tab>standard-Solution</tab>
     <tab>standard-Product2</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Client__c</tab>
-    <tab>Project__c</tab>
-    <tab>Consultant__c</tab>
-    <tab>Applicant__c</tab>
-    <tab>Job_Site__c</tab>
-    <tab>LeadTest__c</tab>
-    <tab>VF_page_tab</tab>
-    <tab>Review__c</tab>
 </CustomApplication>

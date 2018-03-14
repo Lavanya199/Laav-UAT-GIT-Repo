@@ -36,6 +36,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AssetLevel</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetProvidedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetServicedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -50,6 +64,10 @@
     </fields>
     <fields>
         <fullName>IsCompetitorProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInternal</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -108,6 +126,9 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>StockKeepingUnit</fullName>
+    </fields>
+    <fields>
         <fullName>UsageEndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -115,28 +136,6 @@
         <fullName>AllAssets</fullName>
         <filterScope>Everything</filterScope>
         <label>All Assets</label>
-    </listViews>
-    <listViews>
-        <fullName>Asset1</fullName>
-        <columns>ASSET.NAME</columns>
-        <columns>ASSET.SERIAL_NUMBER</columns>
-        <columns>ASSET.INSTALL_DATE</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.NAME</columns>
-        <columns>PRODUCT2.NAME</columns>
-        <columns>ASSET.PURCHASE_DATE</columns>
-        <columns>ASSET.PRICE</columns>
-        <columns>ASSET.STATUS</columns>
-        <columns>ASSET.QUANTITY</columns>
-        <columns>CONTACT.LAST_NAME</columns>
-        <columns>PRODUCT2.FAMILY_ENUM</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>ASSET.PURCHASE_DATE</field>
-            <operation>lessThan</operation>
-            <value>6/1/2016</value>
-        </filters>
-        <label>Asset1</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>

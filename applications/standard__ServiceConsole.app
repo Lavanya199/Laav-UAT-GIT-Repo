@@ -173,36 +173,7 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
-    <tab>standard-Knowledge</tab>
-    <tab>Client__c</tab>
-    <tab>Project__c</tab>
-    <tab>Consultant__c</tab>
-    <tab>Applicant__c</tab>
-    <tab>Job_Site__c</tab>
-    <tab>VF_page_tab</tab>
-    <tab>Review__c</tab>
     <workspaceMappings>
-        <mapping>
-            <tab>Applicant__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Client__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Consultant__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Job_Site__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Project__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Review__c</tab>
-        </mapping>
-        <mapping>
-            <tab>VF_page_tab</tab>
-        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
@@ -213,9 +184,6 @@
         <mapping>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
-        </mapping>
-        <mapping>
-            <tab>standard-Knowledge</tab>
         </mapping>
         <mapping>
             <tab>standard-Lead</tab>
