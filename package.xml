@@ -1,75 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>40.0</version>
     <types>
-        <members>Dev1</members>
-        <members>Hi_Lavanya</members>
-        <members>PositionApproval</members>
-        <members>ac1</members>
-        <members>ac2</members>
-        <members>ac3</members>
-        <members>ac4</members>
-        <members>ac5</members>
-        <members>ac6</members>
-        <members>bulktest</members>
-        <members>class_s</members>
-        <members>cont1</members>
-        <members>ext2</members>
-        <members>q1</members>
-        <members>roja</members>
-        <members>roja1</members>
-        <members>roja2</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>BoxedText</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>Laav3</members>
-        <members>laav1</members>
-        <members>laav10</members>
-        <members>laav11</members>
-        <members>laav12</members>
-        <members>laav13</members>
-        <members>laav14</members>
-        <members>laav15</members>
-        <members>laav16</members>
-        <members>laav17</members>
-        <members>laav18</members>
-        <members>laav2</members>
-        <members>laav4</members>
-        <members>laav5</members>
-        <members>laav6</members>
-        <members>laav7</members>
-        <members>laav8</members>
-        <members>laav9</members>
-        <members>page1</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>ApplicantTrigger</members>
-        <members>PositionApprovalTrigger</members>
-        <members>act_trigger1</members>
-        <members>opp_trigger1</members>
-        <members>trigger2</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
+        <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
     <types>
-        <members>Job_Application__c.Approval_process_for_jobapplication</members>
-        <members>Opportunity.Approval_trial_1</members>
-        <members>Opportunity.Approval_trial_3</members>
-        <members>Vacancy__c.Vacancy_multi_step_approval_process</members>
-        <name>ApprovalProcess</name>
-    </types>
-    <types>
-        <members>Case.Case assign 1</members>
         <members>Case.Standard</members>
-        <members>Lead.Lead state CA rule</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
@@ -79,23 +17,9 @@
         <name>AssignmentRules</name>
     </types>
     <types>
-        <members>Case.case auto response 1</members>
-        <members>Lead.rule1</members>
-        <name>AutoResponseRule</name>
-    </types>
-    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
-    </types>
-    <types>
-        <members>Case.Case Support 1</members>
-        <members>Case.Case Support 2</members>
-        <members>Lead.Lead process 1</members>
-        <members>Lead.Lead process 2</members>
-        <members>Opportunity.Opportunity sales process 2</members>
-        <members>Opportunity.Oppurtunity sales process1</members>
-        <name>BusinessProcess</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -106,18 +30,13 @@
         <name>Community</name>
     </types>
     <types>
-        <members>Job_Application__c.Laav_created</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>Project_Manager</members>
-        <members>Recruiting</members>
-        <members>Recruitment</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -149,7 +68,6 @@
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
-        <members>Account.Priority__c</members>
         <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
@@ -162,17 +80,20 @@
         <members>Account.Tradestyle</members>
         <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
-        <members>Account.Vacancy__c</members>
         <members>Account.Website</members>
         <members>Account.YearStarted</members>
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
         <members>Asset.AccountId</members>
+        <members>Asset.AssetLevel</members>
+        <members>Asset.AssetProvidedById</members>
+        <members>Asset.AssetServicedById</members>
         <members>Asset.ContactId</members>
         <members>Asset.Description</members>
         <members>Asset.InstallDate</members>
         <members>Asset.IsCompetitorProduct</members>
+        <members>Asset.IsInternal</members>
         <members>Asset.Name</members>
         <members>Asset.OwnerId</members>
         <members>Asset.ParentId</members>
@@ -186,7 +107,13 @@
         <members>Asset.RootAssetId</members>
         <members>Asset.SerialNumber</members>
         <members>Asset.Status</members>
+        <members>Asset.StockKeepingUnit</members>
         <members>Asset.UsageEndDate</members>
+        <members>AssetRelationship.AssetId</members>
+        <members>AssetRelationship.FromDate</members>
+        <members>AssetRelationship.RelatedAssetId</members>
+        <members>AssetRelationship.RelationshipType</members>
+        <members>AssetRelationship.ToDate</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -277,10 +204,6 @@
         <members>Case.SuppliedPhone</members>
         <members>Case.Type</members>
         <members>CaseContactRole.Role</members>
-        <members>Client__c.City__c</members>
-        <members>Client__c.Country__c</members>
-        <members>Consultant__c.Email__c</members>
-        <members>Consultant__c.Project__c</members>
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
@@ -309,11 +232,15 @@
         <members>Contact.Phone</members>
         <members>Contact.ReportsToId</members>
         <members>Contact.Title</members>
+        <members>ContentVersion.ContentSize</members>
         <members>ContentVersion.Description</members>
+        <members>ContentVersion.FileExtension</members>
         <members>ContentVersion.FileType</members>
+        <members>ContentVersion.IsAssetEnabled</members>
         <members>ContentVersion.Language</members>
         <members>ContentVersion.OwnerId</members>
         <members>ContentVersion.SharingOption</members>
+        <members>ContentVersion.SharingPrivacy</members>
         <members>ContentVersion.TagCsv</members>
         <members>ContentVersion.Title</members>
         <members>Contract.AccountId</members>
@@ -464,6 +391,7 @@
         <members>Event.EventSubtype</members>
         <members>Event.IsAllDayEvent</members>
         <members>Event.IsPrivate</members>
+        <members>Event.IsReminderSet</members>
         <members>Event.Location</members>
         <members>Event.OwnerId</members>
         <members>Event.Phone</members>
@@ -473,30 +401,8 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
-        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
-        <members>Interviewer__c.Department__c</members>
-        <members>Interviewer__c.Designation__c</members>
-        <members>Interviewer__c.Email__c</members>
-        <members>Job_Application__c.Applicant__c</members>
-        <members>Job_Application__c.Approver1__c</members>
-        <members>Job_Application__c.Approver2__c</members>
-        <members>Job_Application__c.Approver3__c</members>
-        <members>Job_Application__c.Average_Rating_Score__c</members>
-        <members>Job_Application__c.Close_Date__c</members>
-        <members>Job_Application__c.Cover_Letter__c</members>
-        <members>Job_Application__c.Status__c</members>
-        <members>Job_Application__c.Total_Interview_Rounds__c</members>
-        <members>Job_Application__c.Total_Rating_Score__c</members>
-        <members>Job_Application__c.Vacancy__c</members>
-        <members>Job_Interviewer__c.Interview_Round__c</members>
-        <members>Job_Interviewer__c.Interviewer__c</members>
-        <members>Job_Interviewer__c.Job_Application__c</members>
-        <members>Job_Interviewer__c.Vacancy__c</members>
-        <members>Job_Site__c.Site_Name__c</members>
-        <members>Job_Site__c.Site_URL__c</members>
-        <members>Job_Site__c.Valid_Untill__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
         <members>Lead.CampaignId</members>
@@ -530,17 +436,11 @@
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
         <members>Macro.Description</members>
+        <members>Macro.IsAlohaSupported</members>
+        <members>Macro.IsLightningSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
-        <members>Metric.OrigMetricId__c</members>
-        <members>Offer__c.Basic_Salary__c</members>
-        <members>Offer__c.Date_of_Joining__c</members>
-        <members>Offer__c.Job_Application__c</members>
-        <members>Offer__c.Location__c</members>
-        <members>Offer__c.Offer_status__c</members>
-        <members>Offer__c.Probationary_period__c</members>
-        <members>Offer__c.Type_of_Job__c</members>
-        <members>Offer__c.Vacancy__c</members>
+        <members>Macro.StartingContext</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -550,10 +450,10 @@
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.Description</members>
         <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.IqScore</members>
         <members>Opportunity.IsPrivate</members>
         <members>Opportunity.LeadSource</members>
         <members>Opportunity.MainCompetitors__c</members>
-        <members>Opportunity.Max_Line_item_amount__c</members>
         <members>Opportunity.Name</members>
         <members>Opportunity.NextStep</members>
         <members>Opportunity.OrderNumber__c</members>
@@ -562,7 +462,6 @@
         <members>Opportunity.Probability</members>
         <members>Opportunity.StageName</members>
         <members>Opportunity.TotalOpportunityQuantity</members>
-        <members>Opportunity.Total_Line_Items__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Type</members>
         <members>OpportunityCompetitor.CompetitorName</members>
@@ -619,18 +518,17 @@
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>PartnerRole.ReverseRole</members>
-        <members>Position_approval_matrix__c.Approver1__c</members>
-        <members>Position_approval_matrix__c.Approver2__c</members>
-        <members>Position_approval_matrix__c.Approver3__c</members>
-        <members>Position_approval_matrix__c.Department__c</members>
-        <members>Position_approval_matrix__c.Priority__c</members>
-        <members>Position_approval_matrix__c.Routing_key__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
         <members>Pricebook2.Name</members>
-        <members>Product2.CanUseQuantitySchedule</members>
-        <members>Product2.CanUseRevenueSchedule</members>
+        <members>PricebookEntry.IsActive</members>
+        <members>PricebookEntry.Pricebook2Id</members>
+        <members>PricebookEntry.Product2Id</members>
+        <members>PricebookEntry.ProductCode</members>
+        <members>PricebookEntry.StandardPrice</members>
+        <members>PricebookEntry.UnitPrice</members>
+        <members>PricebookEntry.UseStandardPrice</members>
         <members>Product2.Description</members>
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
@@ -640,16 +538,22 @@
         <members>Product2.Name</members>
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
-        <members>Project__c.Client__c</members>
-        <members>Project__c.Priority__c</members>
-        <members>Project__c.Start_Date__c</members>
-        <members>Review__c.Job_Application__c</members>
-        <members>Review__c.Job_Interviewer__c</members>
-        <members>Review__c.Rating__c</members>
-        <members>Review__c.Review_Comments__c</members>
-        <members>Salary__c.Max_Salary__c</members>
-        <members>Salary__c.Min_Salary__c</members>
-        <members>Salary__c.Vacancy__c</members>
+        <members>Product2.StockKeepingUnit</members>
+        <members>QuickText.Category</members>
+        <members>QuickText.Channel</members>
+        <members>QuickText.Message</members>
+        <members>QuickText.Name</members>
+        <members>QuickText.OwnerId</members>
+        <members>Scorecard.Description</members>
+        <members>Scorecard.Name</members>
+        <members>Scorecard.OwnerId</members>
+        <members>ScorecardAssociation.ScorecardId</members>
+        <members>ScorecardAssociation.TargetEntityId</members>
+        <members>ScorecardMetric.Category</members>
+        <members>ScorecardMetric.Description</members>
+        <members>ScorecardMetric.Name</members>
+        <members>ScorecardMetric.ReportId</members>
+        <members>ScorecardMetric.ScorecardId</members>
         <members>SocialPersona.ExternalId</members>
         <members>SocialPersona.ExternalPictureURL</members>
         <members>SocialPersona.Name</members>
@@ -670,6 +574,7 @@
         <members>Task.Description</members>
         <members>Task.Email</members>
         <members>Task.IsRecurrence</members>
+        <members>Task.IsReminderSet</members>
         <members>Task.OwnerId</members>
         <members>Task.Phone</members>
         <members>Task.Priority</members>
@@ -693,20 +598,6 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
-        <members>Vacancy__c.Approver1__c</members>
-        <members>Vacancy__c.Approver2__c</members>
-        <members>Vacancy__c.Approver3__c</members>
-        <members>Vacancy__c.Days_Open__c</members>
-        <members>Vacancy__c.Department__c</members>
-        <members>Vacancy__c.Duration__c</members>
-        <members>Vacancy__c.Job_Description__c</members>
-        <members>Vacancy__c.Job_Location__c</members>
-        <members>Vacancy__c.Vacancy_Status__c</members>
-        <members>Vacancy__c.Vacancy_Type__c</members>
-        <members>Vacancysite__c.Job_Site__c</members>
-        <members>Vacancysite__c.Vacancy__c</members>
-        <members>Warehouse__c.Rack_Num__c</members>
-        <members>Warehouse__c.Warehouse_S_No__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -715,13 +606,14 @@
         <members>AccountContactRole</members>
         <members>Activity</members>
         <members>Asset</members>
+        <members>AssetRelationship</members>
         <members>AssistantProgress</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
-        <members>Client__c</members>
-        <members>Consultant__c</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
@@ -736,122 +628,79 @@
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
         <members>Idea</members>
-        <members>Interviewer__c</members>
-        <members>Job_Application__c</members>
-        <members>Job_Interviewer__c</members>
-        <members>Job_Site__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
-        <members>LeadTest__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
-        <members>Offer__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
-        <members>Position_approval_matrix__c</members>
         <members>Pricebook2</members>
+        <members>PricebookEntry</members>
         <members>Product2</members>
-        <members>Project__c</members>
-        <members>Review__c</members>
-        <members>Salary__c</members>
+        <members>QuickText</members>
+        <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
+        <members>ScorecardMetric</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>Vacancy__c</members>
-        <members>Vacancysite__c</members>
-        <members>Warehouse__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Applicant__c-en_US</members>
-        <members>Client__c-en_US</members>
-        <members>Consultant__c-en_US</members>
-        <members>Interviewer__c-en_US</members>
-        <members>Job_Application__c-en_US</members>
-        <members>Job_Interviewer__c-en_US</members>
-        <members>Job_Site__c-en_US</members>
-        <members>LeadTest__c-en_US</members>
-        <members>Offer__c-en_US</members>
-        <members>Position_approval_matrix__c-en_US</members>
-        <members>Project__c-en_US</members>
-        <members>Review__c-en_US</members>
-        <members>Salary__c-en_US</members>
-        <members>Vacancy__c-en_US</members>
-        <members>Vacancysite__c-en_US</members>
-        <members>Warehouse__c-en_US</members>
-        <name>CustomObjectTranslation</name>
+        <members>Account.Standard_Account_Duplicate_Rule</members>
+        <members>Contact.Standard_Contact_Duplicate_Rule</members>
+        <members>Lead.Standard_Lead_Duplicate_Rule</members>
+        <name>DuplicateRule</name>
     </types>
     <types>
-        <members>Applicant__c</members>
-        <members>Client__c</members>
-        <members>Consultant__c</members>
-        <members>Interviewer__c</members>
-        <members>Job_Application__c</members>
-        <members>Job_Interviewer__c</members>
-        <members>Job_Site__c</members>
-        <members>LeadTest__c</members>
-        <members>Offer__c</members>
-        <members>Position_approval_matrix__c</members>
-        <members>Project__c</members>
-        <members>Review__c</members>
-        <members>VF_page_tab</members>
-        <members>Vacancy__c</members>
-        <members>Vacancysite__c</members>
-        <name>CustomTab</name>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
     </types>
     <types>
-        <members>Case.Case escalation 1</members>
         <members>Case.Standard</members>
         <name>EscalationRule</name>
     </types>
     <types>
-        <members>Vacancy__c.hi</members>
-        <name>FieldSet</name>
-    </types>
-    <types>
-        <members>JobApplication_Management-1</members>
-        <members>Update_Standard_owner_applicants-1</members>
-        <members>Update_Standard_owner_applicants-2</members>
-        <members>Update_Standard_owner_applicants-3</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>JobApplication_Management</members>
-        <members>Update_Standard_owner_applicants</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>Test_group</members>
-        <members>Test_group2</members>
-        <name>Group</name>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>sf_chttr_apps</members>
-        <members>sf_com_apps</members>
-        <name>InstalledPackage</name>
-    </types>
-    <types>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
-        <members>Account-Account-Accounting Layout</members>
-        <members>Applicant__c-Applicant Layout</members>
         <members>Asset-Asset Layout</members>
+        <members>AssetRelationship-Asset Relationship Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -859,8 +708,6 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
-        <members>Client__c-Client Layout</members>
-        <members>Consultant__c-Consultant Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
@@ -869,23 +716,15 @@
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
-        <members>EmailMessage-Email Message Layout - Email-to-Case</members>
+        <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
-        <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
-        <members>Interviewer__c-Interviewer Layout</members>
-        <members>Job_Application__c-JA Status record</members>
-        <members>Job_Application__c-Job Application Layout</members>
-        <members>Job_Interviewer__c-Job Interviewer Layout</members>
-        <members>Job_Site__c-Job Site Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
-        <members>LeadTest__c-LeadTest Layout</members>
         <members>Macro-Macro Layout</members>
-        <members>Offer__c-Offer Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -893,29 +732,20 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
-        <members>Position_approval_matrix__c-Position approval matrix Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
-        <members>Project__c-Project Layout</members>
-        <members>Review__c-Review Layout</members>
-        <members>Salary__c-Salary Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
-        <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>Vacancy__c-Vacancy Layout</members>
-        <members>Vacancy__c-Vacancy-recruiter layout</members>
-        <members>Vacancysite__c-Vacancysite Layout</members>
-        <members>Warehouse__c-Warehouse Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>New_Applicant_Alert</members>
-        <name>Letterhead</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
@@ -928,16 +758,13 @@
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
         <members>Asset.AllAssets</members>
-        <members>Asset.Asset1</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
-        <members>Case.oppurtunity_queue_Case</members>
-        <members>Client__c.All</members>
-        <members>Consultant__c.All</members>
+        <members>CollaborationGroup.All_ChatterGroups</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -951,25 +778,11 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>Idea.Ideas_Last_7_Days</members>
-        <members>Interviewer__c.All</members>
-        <members>Interviewer__c.All_Details</members>
-        <members>Job_Application__c.All</members>
-        <members>Job_Application__c.All_Details</members>
-        <members>Job_Application__c.JobApplications</members>
-        <members>Job_Application__c.Vacancy_and_jobapplication_Queue_Job_Application</members>
-        <members>Job_Interviewer__c.All</members>
-        <members>Job_Interviewer__c.All_Details</members>
-        <members>Job_Site__c.All</members>
-        <members>Job_Site__c.All_Details</members>
         <members>Lead.AllOpenLeads</members>
-        <members>Lead.Lead_Queue_Lead</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
-        <members>LeadTest__c.All</members>
-        <members>Offer__c.All</members>
-        <members>Offer__c.All_Details</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -982,39 +795,18 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
-        <members>Position_approval_matrix__c.All</members>
-        <members>Product2.ACTIVE_PRODUCTS</members>
-        <members>Product2.ANDROID_PHONES</members>
         <members>Product2.AllProducts</members>
-        <members>Product2.JAMS</members>
-        <members>Project__c.All</members>
-        <members>Review__c.All</members>
+        <members>Scorecard.AllScorecards</members>
+        <members>Scorecard.MyScorecards</members>
+        <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>Vacancy__c.All</members>
-        <members>Vacancy__c.All_Details</members>
-        <members>Vacancy__c.All_vacancies</members>
-        <members>Vacancy__c.Vacancies_in_Sales_Dept</members>
-        <members>Vacancy__c.Vacancy_and_jobapplication_Queue_Vacancy</members>
-        <members>Vacancysite__c.All</members>
-        <members>Vacancysite__c.All_Details</members>
         <name>ListView</name>
     </types>
     <types>
-        <members>Account_permissions</members>
-        <members>Interviwer_permission_set</members>
-        <members>Permission_sets_demo</members>
-        <members>Permissionset_demo</members>
-        <members>Recruitment_Developer</members>
-        <members>pm_demo2</members>
-        <members>trial</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>Accounting user</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -1039,37 +831,23 @@
         <members>Gold Partner User</members>
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
-        <members>Hiring Manager</members>
         <members>Identity User</members>
-        <members>Interviewer</members>
         <members>MarketingProfile</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
-        <members>Profile Trial</members>
         <members>ReadOnly</members>
-        <members>Recruiter</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
-        <members>Std%2E Employee</members>
-        <members>Std%2E Employee dummy</members>
         <members>Work%2Ecom Only User</members>
-        <members>trial1</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>Lead_Queue</members>
-        <members>Recruitment_Queue</members>
-        <members>Vacancy_and_jobapplication_Queue</members>
-        <members>oppurtunity_queue</members>
-        <name>Queue</name>
-    </types>
-    <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
-        <members>Case.SendEmail</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
         <members>FeedItem.NewTaskFromFeedItem</members>
@@ -1095,22 +873,7 @@
         <name>QuickAction</name>
     </types>
     <types>
-        <members>Case.Case_Recordtype_1</members>
-        <members>Case.Case_Recordtype_2</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
-        <members>Job_Application__c.HiringManager_JA_Record</members>
-        <members>Job_Application__c.Manager</members>
-        <members>Job_Application__c.Recruiter_JA_Record</members>
-        <members>Job_Application__c.Trial_1</members>
-        <members>Lead.Lead_Record_type_2</members>
-        <members>Lead.Lead_Recordtype1</members>
-        <members>Metric.Completion</members>
-        <members>Metric.Progress</members>
-        <members>Opportunity.Oppurtunity_Recordtype_1</members>
-        <members>Opportunity.Trial_record_1</members>
-        <members>Vacancy__c.HiringManager_Record</members>
-        <members>Vacancy__c.Interviewer_Record</members>
-        <members>Vacancy__c.Recruiter_Record</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -1118,14 +881,8 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
-        <members>Account_with_opps_and_prods</members>
-        <members>Offers_released_report</members>
-        <members>Vanacies_with_jobsites</members>
-        <members>vacancies_with_job_applications_with_reviews</members>
-        <name>ReportType</name>
-    </types>
-    <types>
         <members>CEO</members>
+        <members>CFO</members>
         <members>COO</members>
         <members>ChannelSalesTeam</members>
         <members>CustomerSupportInternational</members>
@@ -1135,13 +892,9 @@
         <members>EasternSalesTeam</members>
         <members>InstallationRepairServices</members>
         <members>MarketingTeam</members>
-        <members>SFDC_CEO</members>
-        <members>SFDC_DIRECTOR</members>
-        <members>SFDC_VP</members>
         <members>SVPCustomerServiceSupport</members>
         <members>SVPHumanResources</members>
         <members>SVPSalesMarketing</members>
-        <members>VP</members>
         <members>VPInternationalSales</members>
         <members>VPMarketing</members>
         <members>VPNorthAmericanSales</members>
@@ -1154,10 +907,10 @@
         <members>Address</members>
         <members>BusinessHours</members>
         <members>Case</members>
-        <members>ChatterAnswers</members>
         <members>Company</members>
         <members>Contract</members>
         <members>Entitlement</members>
+        <members>FieldService</members>
         <members>FileUploadAndDownloadSecurity</members>
         <members>Forecasting</members>
         <members>Ideas</members>
@@ -1178,99 +931,67 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Vacancy__c.Vacancy_rule_1</members>
-        <name>SharingCriteriaRule</name>
-    </types>
-    <types>
-        <members>Task.UpdateStatus_0.quickAction</members>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>User</members>
         <name>SharingRules</name>
     </types>
     <types>
-        <members>Opportunity.Opportunity_sharing_rule_1</members>
-        <name>SharingTerritoryRule</name>
-    </types>
-    <types>
-        <members>Job_Application__c.Review_Rule</members>
-        <members>Salary__c.Minimum_salary_rule</members>
-        <members>Vacancy__c.Parttime_Validation_rule</members>
-        <name>ValidationRule</name>
+        <members>AccountContactRole</members>
+        <members>AccountOwnership</members>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>AssetStatus</members>
+        <members>CampaignMemberStatus</members>
+        <members>CampaignStatus</members>
+        <members>CampaignType</members>
+        <members>CaseContactRole</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <members>ContactRole</members>
+        <members>ContractContactRole</members>
+        <members>ContractStatus</members>
+        <members>EventSubject</members>
+        <members>EventType</members>
+        <members>FiscalYearPeriodName</members>
+        <members>FiscalYearPeriodPrefix</members>
+        <members>FiscalYearQuarterName</members>
+        <members>FiscalYearQuarterPrefix</members>
+        <members>IdeaMultiCategory</members>
+        <members>IdeaStatus</members>
+        <members>Industry</members>
+        <members>LeadSource</members>
+        <members>LeadStatus</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityStage</members>
+        <members>OpportunityType</members>
+        <members>OrderType</members>
+        <members>PartnerRole</members>
+        <members>Product2Family</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
+        <members>Salutation</members>
+        <members>SolutionStatus</members>
+        <members>TaskPriority</members>
+        <members>TaskStatus</members>
+        <members>TaskSubject</members>
+        <members>TaskType</members>
+        <name>StandardValueSet</name>
     </types>
     <types>
         <members>Account.Billing</members>
-        <members>Account.SAAS_Agreement</members>
-        <members>Account.VF_Page_button</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>Applicant__c.New_Applicant_email_alert</members>
-        <members>Job_Application__c.Interview_scheduled</members>
-        <members>Job_Application__c.Offter_letter_issued_close_Job_application</members>
-        <members>Job_Application__c.Recall_Email_alert</members>
-        <members>Job_Application__c.Review_Job_application</members>
-        <members>Lead.Email_after_1_hr</members>
-        <members>Lead.Follow_up_2hrs</members>
-        <members>Lead.Lead_Follow_up</members>
-        <members>Lead.Lead_Follow_up1</members>
-        <members>Lead.X1hr_created_date</members>
-        <members>Lead.lead_followup_1day</members>
-        <members>Offer__c.Vacancy_and_Job_application_closed</members>
-        <members>Vacancy__c.Final_Vacancy_approval</members>
-        <members>Vacancy__c.HR_VP_approved_the_vacancy</members>
-        <members>Vacancy__c.Vacancy_rejected</members>
-        <members>Vacancy__c.Vacancy_rejected2</members>
-        <members>Vacancy__c.vacancy_recall</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Account.account_field</members>
-        <members>Job_Application__c.Close_date_update</members>
-        <members>Job_Application__c.Close_date_update2</members>
-        <members>Job_Application__c.Final_rejection_update</members>
-        <members>Job_Application__c.Interview_update</members>
-        <members>Job_Application__c.Rejected_at_1</members>
-        <members>Job_Application__c.Selection_update</members>
-        <members>Job_Application__c.Selection_update2</members>
-        <members>Job_Application__c.Shortlist_update</members>
-        <members>Job_Application__c.Status_of_Job_application</members>
-        <members>Job_Application__c.Update_to_review_resume</members>
-        <members>Job_Application__c.field_update</members>
-        <members>Offer__c.Job_application_status_closed</members>
-        <members>Offer__c.Update_job_application_status</members>
-        <members>Offer__c.Vacancy_closed</members>
-        <members>Vacancy__c.HR_VP_rejected_the_vacancy</members>
-        <members>Vacancy__c.Vacancy_rejection1</members>
-        <members>Vacancy__c.vacancy_status_update1</members>
-        <members>Vacancy__c.vacancy_status_update2</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Offer__c.Follow_applicant_on_issued_offer_letter</members>
-        <members>Vacancy__c.vacancy_outbound_message_test</members>
-        <name>WorkflowOutboundMessage</name>
-    </types>
-    <types>
-        <members>Account.Account rule 1</members>
-        <members>Applicant__c.New Applicant Alert</members>
-        <members>Job_Application__c.Update close date of job application</members>
-        <members>Job_Application__c.Update close date of job application2</members>
-        <members>Lead.Lead - Task - Contacted</members>
-        <members>Lead.Lead FollowupTwo</members>
-        <members>Lead.Lead follow up</members>
-        <members>Offer__c.Submitted Offer Requires Action</members>
-        <members>Offer__c.To end up a job application if offer status is accepted</members>
-        <members>Offer__c.To end up a job application if offer status is rejected</members>
-        <members>Vacancy__c.New vacancy</members>
-        <members>Vacancy__c.vacancy outbound message test</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
-        <members>Account.account_follow_up</members>
-        <members>Applicant__c.New_Applicant_alert</members>
-        <members>Offer__c.Follow_up_on_submitted_offer</members>
-        <members>Offer__c.Vacancy_and_job_application_closed</members>
-        <name>WorkflowTask</name>
     </types>
 </Package>

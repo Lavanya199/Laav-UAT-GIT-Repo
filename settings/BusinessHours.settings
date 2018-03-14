@@ -10,8 +10,8 @@
         <name>Default</name>
         <saturdayEndTime>00:00:00.000Z</saturdayEndTime>
         <saturdayStartTime>00:00:00.000Z</saturdayStartTime>
-        <sundayEndTime>10:00:00.000Z</sundayEndTime>
-        <sundayStartTime>05:00:00.000Z</sundayStartTime>
+        <sundayEndTime>00:00:00.000Z</sundayEndTime>
+        <sundayStartTime>00:00:00.000Z</sundayStartTime>
         <thursdayEndTime>00:00:00.000Z</thursdayEndTime>
         <thursdayStartTime>00:00:00.000Z</thursdayStartTime>
         <timeZoneId>America/Los_Angeles</timeZoneId>

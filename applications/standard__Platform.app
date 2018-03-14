@@ -6,11 +6,4 @@
     <tab>standard-Contact</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Client__c</tab>
-    <tab>Project__c</tab>
-    <tab>Consultant__c</tab>
-    <tab>Applicant__c</tab>
-    <tab>Job_Site__c</tab>
-    <tab>VF_page_tab</tab>
-    <tab>Review__c</tab>
 </CustomApplication>

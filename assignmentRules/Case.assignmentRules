@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Case assign 1</fullName>
+        <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>oppurtunity_queue</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.Origin</field>
-                <operation>equals</operation>
-                <value>Web</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Status</field>
-                <operation>equals</operation>
-                <value>New</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>User.Country</field>
-                <operation>equals</operation>
-                <value>US</value>
-            </criteriaItems>
-        </ruleEntry>
-    </assignmentRule>
-    <assignmentRule>
-        <fullName>Standard</fullName>
-        <active>false</active>
-        <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyadev@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -50,7 +23,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyadev@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -69,7 +42,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyadev@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -88,7 +61,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyadev@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -107,7 +80,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>jaanu@domain.com</assignedTo>
+            <assignedTo>lavanyadev@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
