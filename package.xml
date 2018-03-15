@@ -4,6 +4,10 @@
     <types>
         <members>AccountCreation</members>
         <members>AccountCreationTest</members>
+        <members>CreateAccountClass</members>
+        <members>CreateAccountClassTest</members>
+        <members>Lavanya</members>
+        <members>LavanyaTest</members>
         <members>apexclass1</members>
         <name>ApexClass</name>
     </types>
