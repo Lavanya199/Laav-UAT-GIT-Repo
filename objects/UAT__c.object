@@ -83,12 +83,27 @@
                     <default>false</default>
                     <label>4</label>
                 </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>UAT_Field1__c</fullName>
-        <description>Added field description</description>
+        <description>Added field description - 10.10pm</description>
         <externalId>false</externalId>
         <label>UAT Field1</label>
         <length>200</length>
