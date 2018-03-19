@@ -101,27 +101,6 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>UAT_Field1__c</fullName>
-        <description>Added field description - 10.10pm</description>
-        <externalId>false</externalId>
-        <label>UAT Field1</label>
-        <length>200</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>UAT_Field2__c</fullName>
-        <externalId>false</externalId>
-        <label>UAT Field2</label>
-        <length>250</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>UAT</label>
     <listViews>
         <fullName>All</fullName>
