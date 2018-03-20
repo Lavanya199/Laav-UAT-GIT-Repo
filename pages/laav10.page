@@ -1,6 +1,0 @@
-<apex:page controller="ac1" >
-    {!message}<br/>
-    {!a.Name}<br/>
-    {!a.Type}<br/>
-    {!a.Industry}<br/>
-</apex:page>
