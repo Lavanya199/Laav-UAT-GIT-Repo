@@ -46,13 +46,40 @@
     <description>added description march 14 5.02pm</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Date_field__c</fullName>
+        <externalId>false</externalId>
+        <label>Date field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>Select__c</fullName>
         <externalId>false</externalId>
@@ -98,6 +125,45 @@
                     <fullName>7</fullName>
                     <default>false</default>
                     <label>7</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Versions__c</fullName>
+        <externalId>false</externalId>
+        <label>Versions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>4.1</fullName>
+                    <default>false</default>
+                    <label>4.1</label>
+                </value>
+                <value>
+                    <fullName>4.2</fullName>
+                    <default>false</default>
+                    <label>4.2</label>
+                </value>
+                <value>
+                    <fullName>4.3</fullName>
+                    <default>false</default>
+                    <label>4.3</label>
+                </value>
+                <value>
+                    <fullName>4.4</fullName>
+                    <default>false</default>
+                    <label>4.4</label>
+                </value>
+                <value>
+                    <fullName>4.5</fullName>
+                    <default>false</default>
+                    <label>4.5</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
