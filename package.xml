@@ -610,6 +610,7 @@
         <members>UAT__c.Email__c</members>
         <members>UAT__c.Number__c</members>
         <members>UAT__c.Select__c</members>
+        <members>UAT__c.Text_area__c</members>
         <members>UAT__c.Versions__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
