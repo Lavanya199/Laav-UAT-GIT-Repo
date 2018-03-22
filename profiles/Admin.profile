@@ -1394,6 +1394,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>UAT__c.Text_area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>UAT__c.Versions__c</field>
         <readable>true</readable>
     </fieldPermissions>

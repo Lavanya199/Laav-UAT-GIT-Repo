@@ -129,6 +129,15 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Text_area__c</fullName>
+        <externalId>false</externalId>
+        <label>Text area</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>Versions__c</fullName>
         <externalId>false</externalId>
         <label>Versions</label>
