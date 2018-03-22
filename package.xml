@@ -6,10 +6,18 @@
         <members>AccountCreationTest</members>
         <members>CreateAccountClass</members>
         <members>CreateAccountClassTest</members>
+        <members>DailyLeadProcessor</members>
+        <members>DailyLeadProcessorTest</members>
         <members>Lavanya</members>
         <members>LavanyaTest</members>
         <members>apexclass1</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger1</members>
+        <members>ContactTrigger1</members>
+        <members>Leadtrigger1</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
@@ -412,6 +420,7 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Lead.Address</members>
@@ -452,6 +461,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -597,7 +607,11 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>UAT__c.Date_field__c</members>
+        <members>UAT__c.Email__c</members>
+        <members>UAT__c.Number__c</members>
         <members>UAT__c.Select__c</members>
+        <members>UAT__c.Versions__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -897,6 +911,8 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
         <name>RecordType</name>
     </types>
     <types>
