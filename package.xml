@@ -455,6 +455,9 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
+        <members>Livi__c.Cream__c</members>
+        <members>Livi__c.FullName__c</members>
+        <members>Livi__c.Perfume__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -657,6 +660,7 @@
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
+        <members>Livi__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
@@ -760,6 +764,7 @@
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
+        <members>Livi__c-Livi Layout</members>
         <members>Macro-Macro Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
